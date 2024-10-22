@@ -1,18 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/style.css">
-    <title>Final Project [Book library]</title>
+    <title>Book Catalog System</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+      <header>
+        <div >
+            <img class="logo" src="images/logo-01.png" >
+        </div>
+        <nav>
+            <div>
+                <a href="index.html" class="home-icon">
+                <img src="images/home_icon.png"/>
+                </a>
+                <a href="index.html" class="addBook">
+                    <img src="images/add_icon.png"/>
+                </a>
+                <a href="list.html" class="bookslist">
+                    <img src="images/list_icon.png"/>
+                </a>
+            </div>
+        </nav>
+    </header>
 
+    <main>
+        <section class="top">
+            <div class="text-section">
+                <h1>Welcome to our book Library!</h1>
+                <h2>Discover your next read</h2>
+            </div>
+            <div class="image-section">
+                <img class="top-image" src="images/gilr-01.png" >
+            </div>
+        </section>
 
+        <section class="intro">
+            <p>With our book catalog system, you can organize and manage your reading journey with ease. Whether you're a book lover or just looking to keep track of your library, you can easily add new books, search for books by title or author, build your personalized reading list, and mark your list books as 'Read' or 'Unread'.</p>
+            <p>Welcome to your personal book catalog!</p>
+        </section>
+
+        <section class="search-bar">
+            <p>Search by title or author to quickly find any book in your library.</p>
+            <div class="search-container">
+                <input type="text" placeholder="Search books...">
+                <button style="color:  #B74816;">search</button>
+            </div>
+        </section>
+
+        <div class="book-section">
+            <h2>Explore your book collection</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <img class= "cover" src="images/cover1.jpg">
+                    <div class="book-details">
+                        <h3>Book Name</h3>
+                        <h3>Author Name</h3>
+                        <h3>Genra</h3>
+                        <button class="add-book"> <img src="images/addtolist.png"></button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img class= "cover" src="images/cover2.jpg">
+                    <div class="book-details">
+                        <h3>Book Name</h3>
+                        <h3>Author Name</h3>
+                        <h3>Genra</h3>
+                        <button class="add-book"> <img src="images/addtolist.png"></button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img class= "cover" src="images/cover3.jpg">
+                    <div class="book-details">
+                        <h3>Book Name</h3>
+                        <h3>Author Name</h3>
+                        <h3>Genra</h3>
+                        <button class="add-book"> <img src="images/addtolist.png"></button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="#about">About Us</a>
+    </footer>
     <script src="javascript/script.js"></script>
 </body>
-
 </html>
